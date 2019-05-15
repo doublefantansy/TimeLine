@@ -51,7 +51,7 @@ public class TimeLine extends View {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        signLocateWidth = getMeasuredWidth() / 4;
+        signLocateWidth = getMeasuredWidth() / 8;
         setMeasuredDimension(MeasureSpec.getSize(widthMeasureSpec), getContentHeight());
     }
 
